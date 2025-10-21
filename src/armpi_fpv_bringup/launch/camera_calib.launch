@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="size"    default="9x6" />
+    <arg name="square"  default="0.023" />
+    <include file="$(find armpi_fpv_bringup)/launch/usb_cam.launch"/>
+    <node pkg="camera_calibration" type="cameracalibrator.py" name="camera_calibrator" output="screen"
+        args="
+        --size $(arg size)
+        --square $(arg square)
+        --k-coefficients=3
+        --no-service-check
+        image:=/usb_cam/image_raw
+        camera:=usb_cam"/>
+</launch>

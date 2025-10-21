@@ -1,0 +1,38 @@
+<launch>
+    <!--控制器-->
+    <include file="$(find ros_robot_controller)/launch/ros_robot_controller_node.launch"/>
+
+    <!--舵机-->
+    <include file="$(find hiwonder_servo_controllers)/launch/start.launch"/>
+
+    <!--运动学-->
+    <include file="$(find armpi_fpv_kinematics)/launch/kinematics_node.launch"/>
+
+    <!--摄像头-->
+    <include file="$(find armpi_fpv_bringup)/launch/usb_cam.launch" />
+
+    <!--lab参数加载-->
+    <include file="$(find lab_config)/launch/lab_config_manager.launch" />
+
+    <!--位置校准参数-->
+    <rosparam file="$(find armpi_fpv_bringup)/config/config.yaml" command="load"/>
+
+    <!--摄像头画面网页传输-->
+    <node name="web_video_server" pkg="web_video_server" type="web_video_server" required="true" output="screen" />
+
+    <!--app通信-->
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" >
+        <arg name="unregister_timeout" value="3600000"/>
+    </include>
+
+    <!--玩法-->
+    <node name="object_sorting" pkg="object_sorting" type="sorting.py" required="true" output="screen" />
+    <node name="object_tracking" pkg="object_tracking" type="tracking.py" required="true" output="screen" />
+    <node name="object_pallezting" pkg="object_pallezting" type="pallezting.py" required="true" output="screen" />
+
+    <node name="face_detect" pkg="face_detect" type="face.py" required="true" output="screen" />
+
+    <node name="in" pkg="warehouse" type="in.py" required="true" output="screen" />
+    <node name="out" pkg="warehouse" type="out.py" required="true" output="screen" />
+    <node name="exchange" pkg="warehouse" type="exchange.py" required="true" output="screen" />
+</launch>

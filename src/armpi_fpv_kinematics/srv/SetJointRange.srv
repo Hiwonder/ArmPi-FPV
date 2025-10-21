@@ -1,0 +1,4 @@
+armpi_fpv_kinematics/JointsRange data
+---
+bool success
+string message

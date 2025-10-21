@@ -1,0 +1,15 @@
+<package format="2">
+  <name>armpi_fpv_common</name>
+  <version>1.0.0</version>
+  <description>armpi_fpv_common</description>
+  <author>TODO</author>
+  <maintainer email="TODO@email.com" />
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <export>
+    <architecture_independent />
+  </export>
+</package>

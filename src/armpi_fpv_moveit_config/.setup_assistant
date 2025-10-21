@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: armpi_fpv_description
+    relative_path: urdf/armpi_fpv.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/armpi_fpv.srdf
+  CONFIG:
+    author_name: hiwonder
+    author_email: hiwonder@gmail.com
+    generated_timestamp: 1612325085

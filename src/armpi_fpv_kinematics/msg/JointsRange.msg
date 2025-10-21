@@ -1,0 +1,5 @@
+armpi_fpv_kinematics/JointRange joint1
+armpi_fpv_kinematics/JointRange joint2
+armpi_fpv_kinematics/JointRange joint3
+armpi_fpv_kinematics/JointRange joint4
+armpi_fpv_kinematics/JointRange joint5
