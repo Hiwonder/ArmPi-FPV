@@ -13,7 +13,7 @@ ArmPi FPV is an intelligent vision robotic arm controlled by Raspberry Pi 5/Rasp
 ## Official Resources
 
 ### Official Hiwonder
-- **Official Website**: [https://www.hiwonder.net/](https://www.hiwonder.net/)
+- **Official Website**: [https://www.hiwonder.com/](https://www.hiwonder.com/)
 - **Product Page**: [https://www.hiwonder.com/products/armpi-fpv](https://www.hiwonder.com/products/armpi-fpv)
 - **Official Documentation**: [https://docs.hiwonder.com/projects/ArmPi_FPV/en/latest/](https://docs.hiwonder.com/projects/ArmPi_FPV/en/latest/)
 - **Technical Support**: support@hiwonder.com

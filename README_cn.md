@@ -15,7 +15,7 @@ ArmPi FPV智能视觉机械臂以树莓派5/树莓派4B为主控，OpenCV为图�
 ## 官方资源
 
 ### Hiwonder官方
-- **官方网站**: [https://www.hiwonder.net/](https://www.hiwonder.net/)
+- **官方网站**: [https://www.hiwonder.com/](https://www.hiwonder.com/)
 - **产品页面**: [https://www.hiwonder.com/products/armpi-fpv](https://www.hiwonder.com/products/armpi-fpv)
 - **官方文档**: [https://docs.hiwonder.com/projects/ArmPi_FPV/en/latest/](https://docs.hiwonder.com/projects/ArmPi_FPV/en/latest/)
 - **技术支持**: support@hiwonder.com
