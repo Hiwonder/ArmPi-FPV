@@ -3,7 +3,7 @@
 [English](https://github.com/Hiwonder/ArmPi-FPV/blob/main/README.md) | 中文
 
 <p align="center">
-  <img src="./sources/images/image.webp" alt="ArmPi FPV Logo" width="400"/>
+  <img src="./sources/images/armpi-fpv.png" alt="ArmPi FPV Logo" width="600"/>
 </p>
 
 基于树莓派的智能视觉机械臂，搭载高清170°广角摄像头，集成ROS和MoveIt运动学，支持人脸识别、颜色追踪、码垛、智慧仓储等多种AI视觉功能。

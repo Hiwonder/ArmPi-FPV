@@ -3,7 +3,7 @@
 English | [中文](https://github.com/Hiwonder/ArmPi-FPV/blob/main/README_cn.md)
 
 <p align="center">
-  <img src="./sources/images/image.webp" alt="ArmPi FPV Logo" width="400"/>
+  <img src="./sources/images/armpi-fpv.png" alt="ArmPi FPV Logo" width="600"/>
 </p>
 
 ## Product Overview
